@@ -1,7 +1,10 @@
 import { Button, Image } from "@nextui-org/react"
 
 
+
 export const Productos = () => {
+
+
   return (
     <>
         <div className="w-full h-auto px-20 sm:flex flex-col pb-20 hidden">
@@ -18,7 +21,12 @@ export const Productos = () => {
                     />
                     <div className="flex items-center justify-between">
                         <h4 className="w-1/2 p-1 font-semibold text-orange-800">Exfoliante de frutos rojos</h4>
-                        <Button className="w-[40%] bg-orange-800 text-white">Comprar</Button>
+                        <Button
+                          
+                            className="w-[40%] bg-orange-800 text-white">
+                            Comprar
+                        </Button>
+                        
                     </div>
                     <span className="text-orange-400 font-semibold p-1">Precio $145</span>
                 </div>
