@@ -15,19 +15,19 @@ export const MiniNavbar = () => {
   return (
     <>
         <Navbar
-        isBordered
         isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
-        className='bg-white border-0'
+        className='bg-white'
+        
         >
-            <NavbarContent className="sm:hidden " justify="start">
-                <NavbarMenuToggle className='text-orange-600' aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+            <NavbarContent   justify="start">
+                <NavbarMenuToggle className='text-orange-600 ' aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
             </NavbarContent>
-            <NavbarMenu>
+            <NavbarMenu  className='mt-9 ' >
                 {menuItems.map((item, index) => (
                 <NavbarMenuItem key={`${item}-${index}`} >
                     <Link
-                    className="w-full text-orange-600 hover:text-orange-300"
+                    className="w-full text-orange-600 hover:text-orange-800"
                     href="#"
                     size="lg"
                     >
