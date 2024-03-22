@@ -136,7 +136,7 @@ export const infoCategories =[
                 precio:"$150.00"
             },
             {
-                nombre:"Crema silicio organico",
+                nombre:"Crema silicio orgánico",
                 imagen:"/cremas_faciales/crema_silicio_organico_3.webp",
                 precio:"$150.00"
             },

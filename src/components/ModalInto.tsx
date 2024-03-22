@@ -16,10 +16,10 @@ export const ModalInto = ({product}:props) => {
   
   return (
     <>
-        <ModalContent className="overflow-auto min-h-[40%] max-h-[70%]">
+        <ModalContent className="overflow-auto min-h-[40%] max-h-[70%] texto">
             {(onClose) => (
                 <>
-                    <ModalHeader className="flex flex-col gap-1 bg-red-50 text-[#864232]">{product.categoria}</ModalHeader>
+                    <ModalHeader className="flex flex-col gap-1 bg-red-50 text-[#ca8a8a]">{product.categoria}</ModalHeader>
                     <ModalBody className="bg-red-50">
                     {
                         product.productos.map((producto,index)=>(

@@ -42,7 +42,7 @@ export const Sidebar = () => {
           className="absolute top-5 right-5 cursor-pointer text-[#864232]"
           onClick={() => closeMenu()}
         />
-       <div className="pt-10 w-full h-full flex flex-col justify-between">
+       <div className="pt-10 w-full h-full flex flex-col justify-between texto">
           <nav className="h-auto w-full list-none font-medium">
             <li className="border-b border-solid border-red-300"><Link href="#" className="pl-2 lg:mr-[2%]  h-14  hover:text-[#eeb9b9] text-[#ca8a8a] md:text-[0.7em] lg:text-[0.8em] " >Exfoliantes</Link></li>
             <li className="lg:mx-[2%] border-b border-solid border-red-300 "><Link href="#" className="pl-2 h-14  hover:text-[#eeb9b9] text-[#ca8a8a] md:text-[0.7em] lg:text-[0.8em] " >Tónicos faciales</Link></li>

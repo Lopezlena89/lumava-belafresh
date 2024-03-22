@@ -14,17 +14,17 @@ export const Footer = () => {
                         alt="logo belafresh" 
                         className="w-[150px] h-[100px] rounded-none  " 
                     />
-                    <span className="text-[7px] md:text-[10px] font-bold  text-red-300">Direccion: Rubens 5251 Eucalipto Vallarta, Zapopan Jalisco</span>
+                    <span className="text-[7px] md:text-[10px] font-bold  text-red-300 texto">Direccion: Rubens 5251 Eucalipto Vallarta, Zapopan Jalisco</span>
                 </div>
                 <div className="w-full h-full flex">
-                    <div className=" h-full flex flex-col justify-center  ml-10">
-                        <h3 className=" text-red-300 h-[30px] w-full text-[10px] font-bold">Categorias</h3>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Exfoliantes</span>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Tónicos faciales</span>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Sueros faciales</span>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Cremas faciales</span>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Suero de pestañas y cejas</span>
-                        <span className="text-red-300 text-[9px]  cursor-pointer">Kit</span>
+                    <div className=" h-full flex flex-col justify-end texto ml-10">
+                        <h3 className="text-[#ca8a8a] text-[9px] h-[35px] font-semibold text-sm">Características</h3>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Exfoliantes</span>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Tónicos faciales</span>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Sueros faciales</span>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Cremas faciales</span>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Suero de pestañas y cejas</span>
+                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Kit</span>
                     </div>
                     
                 </div>
@@ -34,7 +34,7 @@ export const Footer = () => {
                     
                 </div>
             </div>
-            <span className="text-[10px]  text-red-300">Copyright © 2024 Belafresh Todos los derechos reservados.</span>
+            <span className="text-[10px] texto text-red-300">Copyright © 2024 Belafresh Todos los derechos reservados.</span>
         </footer>
     </>
   )
