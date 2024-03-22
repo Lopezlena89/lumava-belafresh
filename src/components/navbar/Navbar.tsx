@@ -28,7 +28,7 @@ export const Navbar = () => {
             </Link>
           </div>
           <div className=" h-full flex justify-center items-center list-none md:hidden " >
-            <button onClick={openSideMenu}><FiMenu size={25} className="text-[#ca8a8a]"/></button>
+            <button onClick={openSideMenu}><FiMenu size={25} className="text-[#864232]"/></button>
           </div>
       </div>
         

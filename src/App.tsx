@@ -1,9 +1,6 @@
-import { Categories } from "./components/Categories"
-import { Footer } from "./components/Footer"
-import { Principal } from "./components/Principal"
-import { Productos } from "./components/Productos"
-import { Sidebar } from "./components/navbar/MiniNavbar"
-import { Navbar } from "./components/navbar/Navbar"
+import { Categories,Footer,Mapa,Principal } from "./components";
+import { Sidebar } from "./components/navbar/MiniNavbar";
+import { Navbar } from "./components/navbar/Navbar";
 
 
 export const App = () => {
@@ -15,7 +12,7 @@ export const App = () => {
         <main className="w-full h-auto">
           <Principal/>
           <Categories/>
-          <Productos/>
+          <Mapa/>
         </main>
         <Footer/>
        </div>

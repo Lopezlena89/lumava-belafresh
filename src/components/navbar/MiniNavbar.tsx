@@ -39,7 +39,7 @@ export const Sidebar = () => {
       >
         <IoCloseOutline
           size={30}
-          className="absolute top-5 right-5 cursor-pointer text-[#ca8a8a]"
+          className="absolute top-5 right-5 cursor-pointer text-[#864232]"
           onClick={() => closeMenu()}
         />
        <div className="pt-10 w-full h-full flex flex-col justify-between">
