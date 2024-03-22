@@ -13,7 +13,7 @@ interface props{
 }
 
 export const ModalInto = ({product}:props) => {
-    console.log(product)
+  
   return (
     <>
         <ModalContent className="overflow-auto min-h-[40%] max-h-[70%]">

@@ -23,7 +23,7 @@ export const Navbar = () => {
                   <li ><Link href="#" className="lg:ml-[2%] w-full hover:text-[#eeb9b9] text-[#ca8a8a] md:text-[0.6em] lg:text-[0.8em] " >Kits</Link></li>
           </nav>
           <div className="w-auto hidden md:flex items-center ">
-            <Link href="#"  >
+            <Link href="https://wa.me/523320261885"  >
               <Button href="#" className="bg-red-300 rounded-3xl border border-solid border-pink-300 h-[40px] text-[#864232] flex justify-around font-light cursor-pointer">Contáctanos <PiWhatsappLogoThin size={30}/></Button>
             </Link>
           </div>
