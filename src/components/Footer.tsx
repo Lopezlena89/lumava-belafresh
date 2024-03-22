@@ -15,14 +15,14 @@ export const Footer = () => {
                     <span className="text-[7px] md:text-[10px] font-bold  text-red-300 texto">Direccion: Rubens 5251 Eucalipto Vallarta, Zapopan Jalisco</span>
                 </div>
                 <div className="w-full h-full flex">
-                    <div className=" h-full flex flex-col justify-end texto ml-10">
-                        <h3 className="text-[#ca8a8a] text-[9px] h-[35px] font-semibold text-sm">Características</h3>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Exfoliantes</span>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Tónicos faciales</span>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Sueros faciales</span>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Cremas faciales</span>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Suero de pestañas y cejas</span>
-                        <span className="text-red-300 text-[9px] h-[16px]  cursor-pointer">Kit</span>
+                    <div className=" h-full flex flex-col justify-center texto md:ml-5">
+                        <h3 className="text-[#ca8a8a] text-[14px]  font-semibold text-sm">Características</h3>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Exfoliantes</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Tónicos faciales</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Sueros faciales</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Cremas faciales</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Suero de pestañas y cejas</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Kit</span>
                     </div>
                     
                 </div>
