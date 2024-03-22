@@ -32,17 +32,20 @@ export const infoCategories =[
             {
                 nombre:"Tónico niacinamida",
                 imagen:"/tonicos_faciales/tonico_nuacinamida_2.webp",
-                precio:"$150.00"
+                precio:"$150.00",
+                beneficio:"Actua como iluminador y despigmentante, unifica"
             },
             {
                 nombre:"Tónico de lavanda",
                 imagen:"/tonicos_faciales/tonico_lavanda_2.webp",
-                precio:"$175.00"
+                precio:"$175.00",
+                beneficio:""
             },
             {
                 nombre:"Tónico de arroz",
                 imagen:"/tonicos_faciales/tonico_arroz_2.webp",
-                precio:"$175.00"
+                precio:"$175.00",
+                beneficio:""
             },
         ]
     },
