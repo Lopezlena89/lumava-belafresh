@@ -11,9 +11,9 @@ interface Props{
 export const ProductoModal = ({producto}:Props) => {
   return (
     <>
-        <div className="w-full min-h-[120px] rounded-lg  flex items-center">
+        <div className="w-full min-h-[120px] md:min-h-[180px]  rounded-lg  flex items-center">
           <Image src={producto.imagen} className="w-[70px] h-[100px] rounded-none"/>
-          <div className="w-[60%] h-[100px]  flex flex-col items-center justify-around">
+          <div className="w-[60%] h-[100px]  flex flex-col items-center justify-around ml-3">
             <span className="font-semibold text-[#ca8a8a] text-center">{producto.nombre}</span>
             <span className="font-medium text-[#ca8a8a]">{producto.precio}</span>
             <Link href="https://wa.me/523338312375">
