@@ -1,7 +1,5 @@
-import { Image } from "@nextui-org/react"
+import { Image, Link } from "@nextui-org/react"
 import { PiWhatsappLogoThin,PiInstagramLogoThin } from "react-icons/pi";
-
-
 
 export const Footer = () => {
   return (
@@ -29,8 +27,9 @@ export const Footer = () => {
                     
                 </div>
                 <div className=" h-full flex justify-end items-center">
-                    <PiWhatsappLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/>
-                    <PiInstagramLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/>
+                   <Link href="https://www.instagram.com/bela.fresh/"><PiInstagramLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/></Link>
+                    <Link href="https://wa.me/523338312375" ><PiWhatsappLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/></Link>
+                
                     
                 </div>
             </div>

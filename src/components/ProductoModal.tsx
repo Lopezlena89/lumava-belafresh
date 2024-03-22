@@ -1,4 +1,4 @@
-import { Button, Image } from "@nextui-org/react";
+import { Button, Image, Link } from "@nextui-org/react";
 
 interface Props{
   producto: {
@@ -16,7 +16,9 @@ export const ProductoModal = ({producto}:Props) => {
           <div className="w-[60%] h-[100px]  flex flex-col items-center justify-around">
             <span className="font-semibold text-[#ca8a8a] text-center">{producto.nombre}</span>
             <span className="font-medium text-[#ca8a8a]">{producto.precio}</span>
-            <Button href="#" className="w-[80px]  bg-red-300 rounded-3xl  h-[35px] text-[#864232] flex justify-around font-semibold cursor-pointer">Comprar </Button>
+            <Link href="https://wa.me/523338312375">
+             <Button href="#" className="w-[80px]  bg-red-300 rounded-3xl  h-[35px] text-[#864232] flex justify-around font-semibold cursor-pointer">Comprar </Button>
+            </Link>
           </div>
         </div>  
     </>

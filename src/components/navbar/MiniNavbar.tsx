@@ -6,7 +6,7 @@ import {
   IoCloseOutline,
  
 } from "react-icons/io5";
-import { Button, Link } from "@nextui-org/react";
+import { Button, Link, LinkIcon } from "@nextui-org/react";
 import { PiWhatsappLogoThin,PiInstagramLogoLight } from "react-icons/pi";
 
 export const Sidebar = () => {
@@ -53,8 +53,8 @@ export const Sidebar = () => {
           </nav>
           <div className="h-16 w-full border-t border-solid border-red-300 flex justify-center">
               <div className="h-full w-1/2 flex  justify-around items-center">
-                <PiInstagramLogoLight size={30} className="text-red-300"/>
-                <PiWhatsappLogoThin size={30} className="text-red-300"/>
+                <Link href="https://www.instagram.com/bela.fresh/"><PiInstagramLogoLight size={30} className="text-red-300"/></Link>
+               <Link href="https://wa.me/523338312375"> <PiWhatsappLogoThin size={30} className="text-red-300"/></Link>
               
               </div>
           </div>
