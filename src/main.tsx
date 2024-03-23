@@ -9,11 +9,9 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <Navigate to="/"/>
   },
-  {
-    path: "*",
-    element:<Navigate to="/"/>,
-  },
+  
   
 ]);
 
