@@ -89,7 +89,7 @@ export const infoCategories =[
         categoria:'Sueros faciales',
         productos:[
             {
-                nombre:"Suero de acido hialuronico con lavanda",
+                nombre:"Suero de ácido hialurónico con lavanda",
                 imagen:"/sueros_faciales/suero_acido_lavanda_2.webp",
                 precio:"$100.00",
                 beneficio:"Cicatrizante nutre e hidrata a profundidad, revitaliza, piel firme, ilumina, efecto calmante",
@@ -132,12 +132,12 @@ export const infoCategories =[
                 nombre:"Suero de té verde",
                 imagen:"/sueros_faciales/suero_verde_5.webp",
                 precio:"$100.00",
-                beneficio:"Elimina impurezas, cierra poros, reduce arrugas, minimiza espinillas, refresca, reduce inflamacion",
+                beneficio:"Elimina impurezas, cierra poros, reduce arrugas, minimiza espinillas, refresca, reduce inflamación",
                 uso:"",
                 cantidad:"(20ml)"
             },
             {
-                nombre:"Suero de ácido hilauronico concentrado",
+                nombre:"Suero de ácido hilaurónico concentrado",
                 imagen:"/sueros_faciales/suero_hilauronico.webp",
                 precio:"$120.00",
                 beneficio:"Hidratación profunda para piel seca, rellena, suaviza y reafirma",
@@ -222,7 +222,7 @@ export const infoCategories =[
                 nombre:"Suero de pestañas en gel",
                 imagen:"/sueros_de_pestanas_y_cejas/suero_pestanas_gel_2.webp",
                 precio:"$120.00",
-                beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: extracto de calabaza, bergamota, romero, joroba, biotina y acido hialuronico",
+                beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: extracto de calabaza, bergamota, romero, joroba, biotina y ácido hialurónico",
                 uso:"",
                 cantidad:"(15ml)"
             },
@@ -255,7 +255,7 @@ export const infoCategories =[
                 imagen:"/kits/kit_piel_seca.webp",
                 precio:"",
                 beneficio:"",
-                kit:"Exfoliante frutos rojos, Suero ácido hialuronico, Crema vitamina E, Tónico de lavanda, Protector solar",
+                kit:"Exfoliante frutos rojos, Suero ácido hialurónico, Crema vitamina E, Tónico de lavanda, Protector solar",
                 uso:"",
                 cantidad:""
             },
