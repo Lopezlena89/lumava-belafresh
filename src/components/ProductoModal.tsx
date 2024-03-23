@@ -22,7 +22,7 @@ export const ProductoModal = ({producto}:Props) => {
             <Link href="https://wa.me/523338312375" className="mt-2">
              <Button href="#" className="w-[80px]  bg-red-300 rounded-3xl  h-[35px] text-[#864232] flex justify-around font-semibold cursor-pointer">Comprar </Button>
             </Link>
-            <span className="text-[#ca8a8a] text-[12px] mt-2"><span className="text-[#ca8a8a] font-semibold text-[13px]">Beneficios:</span>{` ${producto.beneficio}`}</span>
+            <span className="text-[#ca8a8a] text-[12px] font-semibold mt-2"><span className="text-[#ca8a8a] font-bold text-[13px]">Beneficios:</span>{` ${producto.beneficio}`}</span>
           </div>
         </div>  
     </>
