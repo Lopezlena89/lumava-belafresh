@@ -62,7 +62,7 @@ export const infoCategories =[
                 nombre:"Exfoliante de nuez",
                 imagen:"/exfoliantes/exfoliante_nuez_2.webp",
                 precio:"$165.00",
-                beneficio:"Renueva células muertas,extrema suavidad, uniformidad a la piel del rostro y cualquier zona problemática, deja piel aterciopelada",
+                beneficio:"Renueva células muertas, extrema suavidad, uniformidad a la piel del rostro y cualquier zona problemática, deja piel aterciopelada",
                 uso:"",
                 cantidad:"(50gr)"
             },
@@ -70,7 +70,7 @@ export const infoCategories =[
                 nombre:"Exfoliante de enzima de piña",
                 imagen:"/exfoliantes/exfoliante_pina_2.webp",
                 precio:"$200.00",
-                beneficio:"Limpia profunda la piel,elimina células muertas, sudor e impurezas de la piel, deja piel suave y radiante",
+                beneficio:"Limpia profunda la piel, elimina células muertas, sudor e impurezas de la piel, deja piel suave y radiante",
                 uso:"",
                 cantidad:"(50gr)"
             },
@@ -132,7 +132,7 @@ export const infoCategories =[
                 nombre:"Suero de té verde",
                 imagen:"/sueros_faciales/suero_verde_5.webp",
                 precio:"$100.00",
-                beneficio:"Elimina impurezas, cierra poros, reduce arrugas, minimiza espinillas, refresca,reduce inflamacion",
+                beneficio:"Elimina impurezas, cierra poros, reduce arrugas, minimiza espinillas, refresca, reduce inflamacion",
                 uso:"",
                 cantidad:"(20ml)"
             },
@@ -149,7 +149,7 @@ export const infoCategories =[
                 imagen:"/sueros_faciales/suero_extraaclarante_2.webp",
                 precio:"$130.00",
                 beneficio:"Específicamente para regresarle a la piel luminosidad, elimina las manchas oscuras",
-                uso:"",
+                uso:"USO DE NOCHE",
                 cantidad:"(20ml)"
             },
         ]
@@ -237,7 +237,7 @@ export const infoCategories =[
                 imagen:"/kits/kit_aclarante.webp",
                 precio:"",
                 beneficio:"",
-                kit:"Exfoliante de nuez, Suero extra aclarante, Suero Vitamina C, Suero de Arroz, Crema white, Tónico niacimida, Tónico de Arroz, Protector solar",
+                kit:"Exfoliante de nuez, Suero extra aclarante, Suero Vitamina C, Suero de Arroz, Crema white, Tónico niacinamida, Tónico de Arroz, Protector solar",
                 uso:"",
                 cantidad:""
             },
@@ -273,7 +273,7 @@ export const infoCategories =[
                 imagen:"/kits/kit_piel_madura.webp",
                 precio:"",
                 beneficio:"",
-                kit:"Exfoliante de piña, Suero colageno,Suero AH y lavanda, Crema silico, Tónico de lavanda, Protector solar",
+                kit:"Exfoliante de piña, Suero colageno, Suero AH y lavanda, Crema silico, Tónico de lavanda, Protector solar",
                 uso:"",
                 cantidad:""
             },

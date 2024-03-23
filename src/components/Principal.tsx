@@ -1,11 +1,9 @@
 import { Button, Link } from "@nextui-org/react"
 
-
-
 export const Principal = () => {
   return (
     <>
-        <section className="w-full h-auto bg-red-100 flex flex-col sm:flex-row  ">
+        <section id="nosotros" className="w-full h-auto bg-red-100 flex flex-col sm:flex-row  ">
             <div className="w-full sm:w-[50%] h-[500px] bg-red-200 flex justify-center items-center">
                 <div className="w-[80%]  md:w-[70%] lg:w-[60%] flex flex-col justify-around texto">
                     <h3 className="text-[#864232] text-3xl md:text-4xl text-start font-semibold">El cuidado de la piel es esencial, el maquillaje una eleccion</h3>
@@ -16,7 +14,6 @@ export const Principal = () => {
                 </div>
             </div>
             <div className="w-full sm:w-[50%] h-[500px] overflow-hidden bg-[url('/sueros_faciales/suero_aloe_1.webp')] bg-center bg-cover bg-no-repeat">
-               
             </div>
         </section>
     </>

@@ -25,13 +25,10 @@ export const Footer = () => {
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Suero pestañas y cejas</span>
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Kit</span>
                     </div>
-                    
                 </div>
                 <div className=" h-full flex justify-end items-center">
                    <Link href="https://www.instagram.com/bela.fresh/"><PiInstagramLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/></Link>
                     <Link href="https://wa.me/523338312375" ><PiWhatsappLogoThin size={30} className="text-[#ca8a8a] hover:text-[#eeb9b9] mx-2"/></Link>
-                
-                    
                 </div>
             </div>
             <span className="text-[10px] texto text-red-300">Copyright © 2024 Belafresh Todos los derechos reservados.</span>

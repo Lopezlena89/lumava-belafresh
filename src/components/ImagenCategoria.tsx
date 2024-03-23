@@ -9,7 +9,6 @@ interface Props{
         image:string
     }
 }
-
 export const ImagenCategoria = ({categoria}:Props)=>{
     const {isOpen, onOpen, onClose} = useDisclosure();
     const handleOpen = () => {
