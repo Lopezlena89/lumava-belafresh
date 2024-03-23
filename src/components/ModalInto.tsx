@@ -9,6 +9,7 @@ interface props{
             imagen:string
             precio:string
             beneficio: string
+            kit?:string
             uso: string
             cantidad: string
         }[]

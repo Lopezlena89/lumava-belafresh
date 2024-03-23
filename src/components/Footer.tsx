@@ -21,7 +21,7 @@ export const Footer = () => {
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Tónicos faciales</span>
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Sueros faciales</span>
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Cremas faciales</span>
-                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Suero de pestañas y cejas</span>
+                        <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Suero pestañas y cejas</span>
                         <span className="text-red-300 text-[14px] h-[16px] font-semibold ">Kit</span>
                     </div>
                     

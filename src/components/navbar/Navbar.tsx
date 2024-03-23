@@ -14,11 +14,10 @@ export const Navbar = () => {
           <div className=" flex justify-center cursor-pointer">
               <Image src="/logo_navbar.png" alt="logo belafresh" className="w-[130px] h-[90px] rounded-none " />
           </div>
-          <nav className="w-[80%]  h-full hidden md:flex md:justify-around lg:justify-center font-light items-center list-none  ">
-                  <li ><Link href="#" className="lg:mr-[2%]  hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Nosotros</Link></li>
-                  <li className="lg:mx-[2%] "><Link href="#" className="hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Nuestros productos</Link></li>
-                  <li className="lg:mx-[2%] "><Link href="#" className="hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Ubicacion</Link></li>
-                  
+          <nav className="w-[80%] h-full hidden md:flex justify-center font-light items-center list-none  ">
+                  <li className="mx-[2%] "><Link href="#" className="hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Nosotros</Link></li>
+                  <li className="mx-[2%] "><Link href="#" className="hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Nuestros productos</Link></li>
+                  <li className="mx-[2%] "><Link href="#" className="hover:text-[#eeb9b9] text-[#ca8a8a] text-[1em] " >Ubicacion</Link></li>
           </nav>
           <div className="w-auto hidden md:flex items-center ">
             <Link href="https://wa.me/523338312375"  >

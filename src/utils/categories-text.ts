@@ -35,7 +35,7 @@ export const infoCategories =[
                 precio:"$150.00",
                 beneficio:"Actua como iluminador y despigmentante, unifica el tono y reduce manchas, protege la piel del daño ambiental",
                 uso:"USO DE NOCHE",
-                cantidad:"120ml"
+                cantidad:"(120ml)"
             },
             {
                 nombre:"Tónico de lavanda",
@@ -43,7 +43,7 @@ export const infoCategories =[
                 precio:"$175.00",
                 beneficio:"Para piel mixta, ayuda contra el acné, alivia heridas causadas por el sol y otros contaminantes",
                 uso:"",
-                cantidad:"250ml"
+                cantidad:"(250ml)"
             },
             {
                 nombre:"Tónico de arroz",
@@ -51,7 +51,7 @@ export const infoCategories =[
                 precio:"$175.00",
                 beneficio:"Elimina inflamación, se reduce el riesgo de hiperpigmentación, trata manchas que ya se encuentran en la piel",
                 uso:"",
-                cantidad:"250ml"
+                cantidad:"(250ml)"
             },
         ]
     },
@@ -64,7 +64,7 @@ export const infoCategories =[
                 precio:"$165.00",
                 beneficio:"Renueva células muertas,extrema suavidad, uniformidad a la piel del rostro y cualquier zona problemática, deja piel aterciopelada",
                 uso:"",
-                cantidad:"50gr"
+                cantidad:"(50gr)"
             },
             {
                 nombre:"Exfoliante de enzima de piña",
@@ -72,7 +72,7 @@ export const infoCategories =[
                 precio:"$200.00",
                 beneficio:"Limpia profunda la piel,elimina células muertas, sudor e impurezas de la piel, deja piel suave y radiante",
                 uso:"",
-                cantidad:"50gr"
+                cantidad:"(50gr)"
             },
             {
                 nombre:"Exfoliante de frutos rojos",
@@ -80,7 +80,7 @@ export const infoCategories =[
                 precio:"$165.00",
                 beneficio:"Hidratante y antioxidante con extracto y aroma a fresa, frambueza y zarzamora. Siente tu piel renovada, limpia y fresca",
                 uso:"",
-                cantidad:"50gr"
+                cantidad:"(50gr)"
             },
         ],
 
@@ -94,7 +94,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Cicatrizante nutre e hidrata a profundidad, revitaliza, piel firme, ilumina, efecto calmante",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero de áloe vera",
@@ -102,7 +102,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Calmante regenerativo, cicatrizante, antiflamatorio, astrigente, combate acné, brinda elasticidad, hidratacion profunda y antiséptica",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero vitamina C",
@@ -110,7 +110,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Unifica el tono de piel, brinda elasticidad, desvanece manchas, reduce arrugas, piel mas radiante, retrasa signos de envejecimiento, antioxidante, promueve la produccion de colageno",
                 uso:"USO DE NOCHE",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero de colágeno",
@@ -118,7 +118,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Mantiene piel hidratada, disminuye arrugas y lineas de expresión, aporta firmeza y elasticidad",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero de arroz y niacinamida",
@@ -126,7 +126,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Hidratante, reduce y combate acné minimiza irritacion y enrojecimiento reduce manchas, antioxidante, propiedades curativas",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero de té verde",
@@ -134,7 +134,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Elimina impurezas, cierra poros, reduce arrugas, minimiza espinillas, refresca,reduce inflamacion",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero de ácido hilauronico concentrado",
@@ -142,7 +142,7 @@ export const infoCategories =[
                 precio:"$120.00",
                 beneficio:"Hidratación profunda para piel seca, rellena, suaviza y reafirma",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
             {
                 nombre:"Suero extra aclarante",
@@ -150,7 +150,7 @@ export const infoCategories =[
                 precio:"$130.00",
                 beneficio:"Específicamente para regresarle a la piel luminosidad, elimina las manchas oscuras",
                 uso:"",
-                cantidad:"20ml"
+                cantidad:"(20ml)"
             },
         ]
     },
@@ -163,7 +163,7 @@ export const infoCategories =[
                 precio:"$200.00",
                 beneficio:"Lucha contra el acné, reduce la grasa, hidrata, protege de rayos uv SPF 50",
                 uso:"",
-                cantidad:"40 grs"
+                cantidad:"(40grs)"
             },
             {
                 nombre:"Crema aclarante",
@@ -171,7 +171,7 @@ export const infoCategories =[
                 precio:"$240.00",
                 beneficio:"Excelente para aclarar y quitar manchas de paño, pecas, melasma y manchas por la edad",
                 uso:"USO DE NOCHE",
-                cantidad:"40grs"
+                cantidad:"(40grs)"
             },
             {
                 nombre:"Crema de té verde",
@@ -179,7 +179,7 @@ export const infoCategories =[
                 precio:"$150.00",
                 beneficio:"Antioxidante, previene arrugas, combate acné, minimiza espinillas, elimina impurezas",
                 uso:"",
-                cantidad:"60grs"
+                cantidad:"(60grs)"
             },
             {
                 nombre:"Crema vitamina E",
@@ -187,7 +187,7 @@ export const infoCategories =[
                 precio:"$150.00",
                 beneficio:"Retrasa líneas de expresión y arrugas, reparación celular rápida, mejora textura y tono de piel, piel más radiante",
                 uso:"",
-                cantidad:"60grs"
+                cantidad:"(60grs)"
             },
             {
                 nombre:"Crema silicio orgánico",
@@ -195,7 +195,7 @@ export const infoCategories =[
                 precio:"$150.00",
                 beneficio:"Favorece la regeneración de tejidos, rejuvenece la piel, hidrata, efecto suavizante y tonificante",
                 uso:"",
-                cantidad:"50grs"
+                cantidad:"(50grs)"
             },
             {
                 nombre:"Gel anti acné",
@@ -203,7 +203,7 @@ export const infoCategories =[
                 precio:"$110.00",
                 beneficio:"Quita manchas de acné, enrojecimiento, cierra poros e hidrata, desvanece manchas",
                 uso:"",
-                cantidad:"30grs"
+                cantidad:"(30grs)"
             },
         ]
     },
@@ -216,7 +216,7 @@ export const infoCategories =[
                 precio:"$100.00",
                 beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: Aceite ricino, aceite almendra y aceite de hueso de mamey",
                 uso:"",
-                cantidad:"10ml"
+                cantidad:"(10ml)"
             },
             {
                 nombre:"Suero de pestañas en gel",
@@ -224,7 +224,58 @@ export const infoCategories =[
                 precio:"$120.00",
                 beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: extracto de calabaza, bergamota, romero, joroba, biotina y acido hialuronico",
                 uso:"",
-                cantidad:"15ml"
+                cantidad:"(15ml)"
+            },
+        ]
+
+    },
+    {
+        categoria:'Kits',
+        productos:[
+            {
+                nombre:"Kit Aclarante",
+                imagen:"/kits/kit_aclarante.webp",
+                precio:"",
+                beneficio:"",
+                kit:"Exfoliante de nuez, Suero extra aclarante, Suero Vitamina C, Suero de Arroz, Crema white, Tónico niacimida, Tónico de Arroz, Protector solar",
+                uso:"",
+                cantidad:""
+            },
+            {
+                nombre:"Kit para acné",
+                imagen:"/kits/kit_acne.webp",
+                precio:"",
+                beneficio:"",
+                kit:"Exfoliante de piña, Suero té verde, Crema té verde, Tónico de lavanda, Gel anti acné, Protector solar",
+                uso:"",
+                cantidad:""
+            },
+            {
+                nombre:"Kit piel seca",
+                imagen:"/kits/kit_piel_seca.webp",
+                precio:"",
+                beneficio:"",
+                kit:"Exfoliante frutos rojos, Suero ácido hialuronico, Crema vitamina E, Tónico de lavanda, Protector solar",
+                uso:"",
+                cantidad:""
+            },
+            {
+                nombre:"Kit piel mixta",
+                imagen:"/kits/kit_piel_mixta.webp",
+                precio:"",
+                beneficio:"",
+                kit:"Exfoliante frutos rojos, Suero té verde, Suero aloe vera, Crema té verde, Tónico de lavanda, Protector solar",
+                uso:"",
+                cantidad:""
+            },
+            {
+                nombre:"Kit piel madura",
+                imagen:"/kits/kit_piel_madura.webp",
+                precio:"",
+                beneficio:"",
+                kit:"Exfoliante de piña, Suero colageno,Suero AH y lavanda, Crema silico, Tónico de lavanda, Protector solar",
+                uso:"",
+                cantidad:""
             },
         ]
 
@@ -232,164 +283,3 @@ export const infoCategories =[
    
 ]
 
-export const infoKits=[
-    {
-        nombre:"Kit Aclarante",
-        imagen:"/kits/kit_aclarante.webp",
-        productos:[
-            {
-                nombre:"Exfoliante de nuez",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero extra aclarante",
-                uso:"Noche"
-            },
-            {
-                nombre:"Suero Vitamina C",
-                uso:"Noche"
-            },
-            {
-                nombre:"Suero de Arroz",
-                uso:"Dia"
-            },
-            {
-                nombre:"Crema white",
-                uso:"Noche"
-            },
-            {
-                nombre:"Tónico niacimida",
-                uso:"Noche"
-            },
-            {
-                nombre:"Tónico de Arroz",
-                uso:"Dia"
-            },
-            {
-                nombre:"Protector solar",
-                uso:"Dia y Noche"
-            },
-        ]
-    },
-    {
-        nombre:"Kit para acné",
-        imagen:"/kits/kit_acne.webp",
-        productos:[
-            {
-                nombre:"Exfoliante de piña",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero té verde",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Crema té verde",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Tónico de lavanda",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Gel anti acné",
-                uso:"Noche"
-            },
-            {
-                nombre:"Protector solar",
-                uso:"Dia y Noche"
-            }
-        ]
-        
-    },
-    {
-        nombre:"Kit piel seca",
-        imagen:"/kits/kit_piel_seca.webp",
-        productos:[
-            {
-                nombre:"Exfoliante frutos rojos",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero ácido hialuronico",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Crema vitamina E",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Tónico de lavanda",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Protector solar",
-                uso:"Dia y Noche"
-            }
-        ]
-        
-    },
-    {
-        nombre:"Kit piel mixta",
-        imagen:"/kits/kit_piel_mixta.webp",
-        productos:[
-            {
-                nombre:"Exfoliante frutos rojos",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero té verde",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero aloe vera",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Crema té verde",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Tónico de lavanda",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Protector solar",
-                uso:"Dia y Noche"
-            },
-        ]
-        
-    },
-    {
-        nombre:"Kit piel madura",
-        imagen:"/kits/madura.webp",
-        productos:[
-            {
-                nombre:"Exfoliante de piña",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero colageno",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Suero AH y lavanda",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Crema silico",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Tónico de lavanda",
-                uso:"Dia y Noche"
-            },
-            {
-                nombre:"Protector solar",
-                uso:"Dia y Noche"
-            },
-        ]
-        
-    },
-  
-]
