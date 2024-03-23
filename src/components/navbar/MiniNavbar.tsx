@@ -19,19 +19,19 @@ export const Sidebar = () => {
     <div>
       {/* Background black */}
       {isSideMenuOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen z-20 bg-black opacity-30" />
+        <div className="fixed top-0 left-0 w-screen h-screen z-20 bg-black opacity-30 overscroll-none" />
       )}
 
       {/* Blur */}
       {isSideMenuOpen && (
         <div
           onClick={closeMenu}
-          className="fade-in fixed top-0 left-0 w-screen h-screen z-20 backdrop-filter backdrop-blur-sm"
+          className="fade-in fixed top-0 left-0 w-screen h-screen z-20 backdrop-filter backdrop-blur-sm overscroll-none"
         />
       )}
       <div
         className={clsx(
-          "fixed p-5 overscroll-none right-0 top-0 w-[70%] h-full bg-red-50 z-20 shadow-2xl transform transition-all duration-300",
+          "fixed p-5 right-0 top-0 w-[70%] h-full bg-red-50 z-20 shadow-2xl transform transition-all duration-300 overscroll-none",
           {
             "translate-x-full": !isSideMenuOpen,
           }
