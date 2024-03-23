@@ -9,6 +9,7 @@ export const Footer = () => {
                 <div className="w-[250px] h-full flex flex-col items-start justify-center">
                     <Image 
                         src="/logo_navbar.png" 
+                        loading="lazy" 
                         alt="logo belafresh" 
                         className="w-[150px] h-[100px] rounded-none  " 
                     />

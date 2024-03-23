@@ -17,7 +17,12 @@ export const ProductoModal = ({producto}:Props) => {
   return (
     <>
         <div className="w-full min-h-[120px] md:min-h-[300px] rounded-lg  flex items-center">
-          <Image src={producto.imagen}  className="w-[220px] rounded-xl border border-solid border-[#ca8a8a]"/>
+          <Image 
+            src={producto.imagen}  
+            loading="lazy" 
+            alt={producto.nombre}
+            className="w-[220px] rounded-xl border border-solid border-[#ca8a8a]"
+          />
           <div className="w-[60%] flex flex-col items-center justify-around ml-2">
             <span className="font-semibold text-[#ca8a8a] text-center">{producto.nombre}<span className="ml-2">{`${producto.cantidad}`}</span></span>
             <span className="font-medium text-[#ca8a8a]">{producto.precio}</span>
