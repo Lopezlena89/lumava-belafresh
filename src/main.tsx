@@ -4,13 +4,13 @@ import {NextUIProvider} from "@nextui-org/react";
 import './index.css'
 import { App } from './App'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { Errorpage } from './components/errorPage/ErrorPage';
+import { ErrorPage } from './components/errorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement:<Errorpage/>
+    errorElement:<ErrorPage/>
   }
   
 ]);

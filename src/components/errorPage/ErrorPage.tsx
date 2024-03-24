@@ -1,12 +1,12 @@
 
 import { Navigate } from 'react-router-dom'
 
-export const Errorpage = () => {
+export const ErrorPage = () => {
   return (
     <>
-        <>
-        <Navigate to="/" replace={true} />
-    </>
+        
+          <Navigate to="/" replace={true} />
+        
     </>
   )
 }
