@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    font-family:'Josefin Slab';
+    font-weight:400;
+    src:url('/src/utils/fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf'),format('ttf'),
+        url('/src/utils/fonts/Josefin_Slab/JosefinSlab-Italic-VariableFont_wght.ttf'),format('ttf'), 
+}
+
 *{
     margin:0;
     padding:0;
@@ -10,7 +17,7 @@ html{
     scroll-behavior:smooth;
 }
 .texto{
-    font-family: "Josefin Slab", serif;
+    font-family: "Josefin Slab";
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
