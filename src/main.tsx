@@ -3,16 +3,15 @@ import ReactDOM from 'react-dom/client'
 import {NextUIProvider} from "@nextui-org/react";
 import './index.css'
 import { App } from './App'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import { ErrorPage } from './components/errorPage/ErrorPage';
+import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement:<ErrorPage/>
+    errorElement:<Navigate to="/" replace={true}/>
   }
-  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
