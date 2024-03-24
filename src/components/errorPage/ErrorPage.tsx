@@ -5,7 +5,7 @@ export const ErrorPage = () => {
   return (
     <>
         
-          <Navigate to="/" replace={true} />
+       <h1>Hola mundo</h1>
         
     </>
   )
