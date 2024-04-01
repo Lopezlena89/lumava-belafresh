@@ -211,7 +211,7 @@ export const infoCategories =[
         categoria:'Suero de pestañas y cejas',
         productos:[
             {
-                nombre:"Suero de pestañas y aceite",
+                nombre:"Suero de pestañas en aceite",
                 imagen:"/sueros_de_pestanas_y_cejas/suero_pestanas_aceite_2.webp",
                 precio:"$100.00",
                 beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: Aceite ricino, aceite almendra y aceite de hueso de mamey",
@@ -222,7 +222,7 @@ export const infoCategories =[
                 nombre:"Suero de pestañas en gel",
                 imagen:"/sueros_de_pestanas_y_cejas/suero_pestanas_gel_2.webp",
                 precio:"$120.00",
-                beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: extracto de calabaza, bergamota, romero, joroba, biotina y ácido hialurónico",
+                beneficio:"Ayuda al crecimiento de las pestañas y cejas. Ingredientes: extracto de calabaza, bergamota, romero, jojoba, biotina y ácido hialurónico",
                 uso:"",
                 cantidad:"(15ml)"
             },
