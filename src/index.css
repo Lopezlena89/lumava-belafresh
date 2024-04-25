@@ -8,7 +8,6 @@
     src:url('/src/utils/fonts/Josefin_Slab/JosefinSlab-VariableFont_wght.ttf'),format('ttf'),
         url('/src/utils/fonts/Josefin_Slab/JosefinSlab-Italic-VariableFont_wght.ttf'),format('ttf'), 
 }
-
 *{
     margin:0;
     padding:0;

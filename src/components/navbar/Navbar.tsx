@@ -6,15 +6,14 @@ import { useUIStore } from "../../store/ui-store";
 export const Navbar = () => {
   const openSideMenu = useUIStore((state) => state.openSideMenu);
  
- 
   return (
     <>
       <div className="w-full h-[90px] flex px-[5%] md:px-5 lg:px-[5%] texto justify-between bg-red-50 overflow-hidden">
           <div className=" flex justify-center cursor-pointer">
-              <Image 
+              <img 
                 src="/logo_navbar.png" 
                 alt="logo belafresh" 
-                loading="lazy" 
+                
                 className="w-[130px] h-[90px] rounded-none " />
           </div>
           <nav className="w-[80%] h-full hidden md:flex justify-center font-light items-center list-none  ">

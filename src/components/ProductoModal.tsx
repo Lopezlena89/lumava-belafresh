@@ -17,7 +17,7 @@ export const ProductoModal = ({producto}:Props) => {
   return (
     <>
         <div className="w-full min-h-[120px] md:min-h-[300px] rounded-lg flex items-center relative">
-          <Image 
+          <img 
             src={producto.imagen}  
             loading="lazy" 
             alt={producto.nombre}
