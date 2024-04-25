@@ -7,7 +7,7 @@ export const Footer = () => {
         <footer className="w-full h-[180px] px-3 sm:px-10 bg-red-50 flex flex-col ">
             <div className="w-full h-[150px] border-b border-solid border-red-300 flex justify-between ">
                 <div className="w-[250px] h-full flex flex-col items-start justify-center">
-                    <Image 
+                    <img 
                         src="/logo_navbar.png" 
                         loading="lazy" 
                         alt="logo belafresh" 
